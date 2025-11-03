@@ -1,0 +1,5 @@
+mpicc -O2 -o q1 q1.c
+mpirun -np 4 ./q1 4096
+
+mpicc -O2 -o q2 q2.c
+mpirun -np 4 ./q2 512
